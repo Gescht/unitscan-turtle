@@ -817,7 +817,7 @@ function unitscan_zone_targets()
         t["Tormented Spirit"] = true
 
     elseif zone == "Un'Goro Crater" then
-        t["Baron Charr"
+        t["Baron Charr"] = true
         t["Blazerunner"] = true
         t["Clutchmother Zavas"] = true
         t["Devilsaur"] = true
