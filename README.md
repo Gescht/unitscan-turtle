@@ -2,7 +2,7 @@
 [Unitscan](https://github.com/shirsig/unitscan-vanilla) modified for [Turtle WoW](https://turtle-wow.org/).
 
 ## Description
-This fork extends [unitscan-vanilla](https://github.com/GryllsAddons/unitscan-turtle) by automatically managing active scan targets ([zone targets](https://raw.githubusercontent.com/RetroCro/unitscan-turtle/master/zonetargets.lua)) when you enter a zone.
+This fork extends [unitscan-turtle](https://github.com/GryllsAddons/unitscan-turtle) by automatically managing active scan targets ([zone targets](https://raw.githubusercontent.com/RetroCro/unitscan-turtle/master/zonetargets.lua)) when you enter a zone.
 
 The [zone targets](https://raw.githubusercontent.com/RetroCro/unitscan-turtle/master/zonetargets.lua) includes all elite mobs in addition to rare mobs in vanilla as a baseline.
 
