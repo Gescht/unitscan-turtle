@@ -103,6 +103,7 @@ function unitscan_zone_targets()
         t["Son of Arkkoroc"] = true
         t["Spirit of the Damned"] = true
         t["The Evalcharr"] = true
+        t["Thundering Invader"] = true
         t["Varo'then's Ghost"] = true
 
     elseif zone == "Badlands" then
@@ -932,6 +933,7 @@ function unitscan_zone_targets()
         t["Spellmaw"] = true
         t["Spirit of the Damned"] = true
         t["Ursius"] = true
+        t["Watery Invader"] = true
         t["Xandivious"] = true
 
     elseif zone == "Zul'Farrak" then
