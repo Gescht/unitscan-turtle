@@ -713,10 +713,12 @@ function unitscan_zone_targets()
         t["Hannah Bladeleaf"] = true
         t["Heggin Stonewhisker"] = true
         t["Humar the Pridelord"] = true
+				t["Lakota'mani"] = true
         t["Mad Magglish"] = true
         t["Malgin Barleybrew"] = true
         t["Marcus Bel"] = true
         t["Minor Silithid Flayer"] = true
+				t["Owatanka"] = true
         t["Rathorian"] = true
         t["Razorfen Battleguard"] = true
         t["Razorfen Servitor"] = true
