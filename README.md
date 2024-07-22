@@ -9,7 +9,9 @@ This fork extends [unitscan-turtle](https://github.com/GryllsAddons/unitscan-tur
 ![Example1](preview/unitscan1.jpg)
 ![Example2](preview/unitscan2.jpg)
 ![Example3](preview/unitscan3.jpg)
-![Example4](preview/unitscan4.mp4)
+![Example4](https://github.com/user-attachments/assets/835e06ea-c42f-464c-b2fb-cb5800e48db0)
+
+
 
 The list of units can be found in [zone targets.lua](https://raw.githubusercontent.com/RetroCro/unitscan-turtle/master/zonetargets.lua).
 
