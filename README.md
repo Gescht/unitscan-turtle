@@ -28,7 +28,7 @@ The list of units can be found in [zone targets.lua](https://raw.githubuserconte
    alive.
    
 -   **Unitscan will pause scanning when in combat or when auto attack, auto shoot and wanding are active.**  
--   **Please note unitscan-turtle will not auto target the target when it is found.**    
+-   **Please note unitscan will not auto target the target when it is found.**    
    **Click the target in the unitscan window or use the macro /unitscantarget to target the mob.**
 
 ## Commands / Use
