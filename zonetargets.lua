@@ -75,6 +75,7 @@ function unitscan_zone_targets()
         t["Prince Raze"] = true
         t["Rorgish Jowl"] = true
         t["Terrowulf Packlord"] = true
+				t["Shadumbra"] = true
         t["Ursol'lok"] = true
         t["Wandering Protector"] = true
 
@@ -713,11 +714,14 @@ function unitscan_zone_targets()
         t["Hannah Bladeleaf"] = true
         t["Heggin Stonewhisker"] = true
         t["Humar the Pridelord"] = true
+				t["Kuz"] = true
 				t["Lakota'mani"] = true
+				t["Lok"] = true
         t["Mad Magglish"] = true
         t["Malgin Barleybrew"] = true
         t["Marcus Bel"] = true
         t["Minor Silithid Flayer"] = true
+				t["Nak"] = true
 				t["Owatanka"] = true
         t["Rathorian"] = true
         t["Razorfen Battleguard"] = true
@@ -737,6 +741,7 @@ function unitscan_zone_targets()
         t["Thora Feathermoon"] = true
         t["Thunderstomp"] = true
         t["Warlord Krom'zar"] = true
+				t["Washte Pawne"] = true
         t["Zebrian the Mad"] = true
 
     elseif zone == "The Deadmines" then
