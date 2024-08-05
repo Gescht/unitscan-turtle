@@ -5,6 +5,32 @@
 ## Description
 This fork extends [unitscan-turtle](https://github.com/GryllsAddons/unitscan-turtle) by provinding a prepopulated list of  dangerous elite mobs, rares, and other units. This version is especially useful if you're playing Turtle WoW's hardcore mode.
 
+## Download
+Download: https://github.com/RetroCro/unitscan-turtle-hc/archive/refs/heads/master.zip
+
+Unzip and rename the subfolder to "unitscan-turtle" 
+
+Copy folder to your Turtle WoW Addons folder ex: twmoa_1171\Interface\AddOns\unitscan-turtle
+
+Path should look like this:
+```
+....\TWMOA_1171\
+├───Interface\
+│   └───AddOns\
+│       ├───unitscan-turtle\
+│       │       Event_wardrum_ogre.ogg
+│       │       gruntling_horn_bb.ogg
+│       │       README.md
+│       │       scourge_horn.ogg
+│       │       tree.txt
+│       │       UI-Achievement-Alert-Glow.blp
+│       │       UI-Achievement-Parchment-Horizontal.blp
+│       │       UI-Achievement-Title.blp
+│       │       unitscan-turtle.toc
+│       │       unitscan.lua
+│       │       zonetargets.lua
+```
+
 ## Preview
 ![Example1](preview/unitscan1.jpg)
 ![Example2](preview/unitscan2.jpg)
