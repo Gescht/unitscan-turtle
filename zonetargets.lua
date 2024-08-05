@@ -39,6 +39,7 @@ function unitscan_zone_targets()
         t["Foulbelly"] = true
         t["Fozruk"] = true
         t["Geomancer Flintdagger"] = true
+				t["Heketh"] = true
         t["Kovork"] = true
         t["Lord Falconcrest"] = true
         t["Marez Cowl"] = true
@@ -276,6 +277,7 @@ function unitscan_zone_targets()
         t["Minion of Weavil"] = true
         t["Oozeworm"] = true
         t["Ripscale"] = true
+				t["Sellick Voss"] = true
         t["Strashaz Hydra"] = true
         t["Strashaz Myrmidon"] = true
         t["Strashaz Serpent Guard"] = true
