@@ -41,6 +41,7 @@ function unitscan_zone_targets()
         t["Geomancer Flintdagger"] = true
 				t["Heketh"] = true
         t["Kovork"] = true
+				t["Lieutenant Valorcall"] = true
         t["Lord Falconcrest"] = true
         t["Marez Cowl"] = true
         t["Molok the Crusher"] = true
@@ -52,6 +53,7 @@ function unitscan_zone_targets()
         t["Prince Nazjak"] = true
         t["Ruul Onestone"] = true
         t["Singer"] = true
+				t["Stromgarde Cavalryman"] = true
         t["Syndicate Conjuror"] = true
         t["Syndicate Magus"] = true
         t["Syndicate Prowler"] = true
@@ -113,6 +115,7 @@ function unitscan_zone_targets()
         t["Ambassador Infernus"] = true
         t["Anathemus"] = true
         t["Blacklash"] = true
+				t["Boss Tho'grun"] = true
         t["Broken Tooth"] = true
         t["Dark Rider"] = true
         t["Hematus"] = true
