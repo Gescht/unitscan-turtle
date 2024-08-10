@@ -58,6 +58,7 @@ function unitscan_zone_targets()
         t["Syndicate Magus"] = true
         t["Syndicate Prowler"] = true
         t["Thenan"] = true
+				t["Witch Doctor Tan'zo"] = true
         t["Witherbark Berserker"] = true
         t["Zalas Witherbark"] = true
 
@@ -215,6 +216,7 @@ function unitscan_zone_targets()
         t["Ambereye Reaver"] = true
         t["Ambershard Crusher"] = true
         t["Ambershard Destroyer"] = true
+				t["Bonepaw Hyena"] = true
         t["Cursed Centaur"] = true
         t["Dark Rider"] = true
         t["Deepstrider Giant"] = true
@@ -224,11 +226,14 @@ function unitscan_zone_targets()
         t["Kaskk"] = true
         t["Khan Hratha"] = true
         t["Lord Azrethoc"] = true
+				t["Magram Bonepaw"] = true
         t["Prince Kellen"] = true
+				t["Rabid Bonepaw"] = true
         t["Rock Borer"] = true
         t["Rock Worm"] = true
         t["Shadowshard Rumbler"] = true
         t["Shadowshard Smasher"] = true
+				t["Starving Bonepaw"] = true
         t["The Nameless Prophet"] = true
 
     elseif zone == "Dun Morogh" then
@@ -952,6 +957,15 @@ function unitscan_zone_targets()
         t["Dustwraith"] = true
         t["Sandarr Dunereaver"] = true
         t["Zerillis"] = true
+				
+	  elseif zone == "Gilneas" then
+        t["Baron Perenolde"] = true
+        t["Bonecruncher"] = true
+        t["Dawnhowl"] = true
+        t["Duskskitterer"] = true
+				t["Firstborn of Arugal"] = true
+        t["Maltimor's Prototype"] = true
+				t["Widow of the Woods"] = true
 
     end
 end
