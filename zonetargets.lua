@@ -767,6 +767,7 @@ function unitscan_zone_targets()
         t["Ironback"] = true
         t["Jade Sludge"] = true
         t["Jalinde Summerdrake"] = true
+				t["Marauding Owlbeast"] = true
         t["Mith'rethis the Enchanter"] = true
         t["Morta'gya the Keeper"] = true
         t["Old Cliff Jumper"] = true
@@ -961,10 +962,13 @@ function unitscan_zone_targets()
 	  elseif zone == "Gilneas" then
         t["Baron Perenolde"] = true
         t["Bonecruncher"] = true
+				t["Custodian Mathias"] = true
         t["Dawnhowl"] = true
         t["Duskskitterer"] = true
 				t["Firstborn of Arugal"] = true
         t["Maltimor's Prototype"] = true
+				t["Sergeant Gately"] = true
+				t["Snarlclaw"] = true
 				t["Widow of the Woods"] = true
 
     end
