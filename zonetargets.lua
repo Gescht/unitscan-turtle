@@ -646,12 +646,15 @@ function unitscan_zone_targets()
         t["Enthralled Atal'ai"] = true
         t["Fingat"] = true
         t["Gilmorian"] = true
+				t["Green Scalebane"] = true
+				t["Green Wyrmkin"] = true
         t["Jade"] = true
         t["Lord Captain Wyrmak"] = true
         t["Lost One Chieftain"] = true
         t["Lost One Cook"] = true
         t["Molt Thorn"] = true
         t["Murk Slitherer"] = true
+				t["Scalebane Captain"] = true
         t["Somnus"] = true
         t["Sorrowclaw"] = true
         t["Zekkis"] = true
