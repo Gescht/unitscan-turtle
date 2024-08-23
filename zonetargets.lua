@@ -932,6 +932,7 @@ function unitscan_zone_targets()
         t["Cobalt Scalebane"] = true
         t["Cobalt Wyrmkin"] = true
         t["Doctor Weavil"] = true
+				t["Enthelar Valebranch"] = true
         t["Frostmaul Giant"] = true
         t["Frostmaul Preserver"] = true
         t["General Colbatann"] = true
@@ -955,6 +956,7 @@ function unitscan_zone_targets()
         t["Spirit of the Damned"] = true
         t["Ursius"] = true
         t["Watery Invader"] = true
+				t["Winterfall Runner"] = true
         t["Xandivious"] = true
 
     elseif zone == "Zul'Farrak" then
