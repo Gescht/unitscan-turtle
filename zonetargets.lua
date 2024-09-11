@@ -36,6 +36,7 @@ function unitscan_zone_targets()
         t["Darbel Montrose"] = true
         t["Dark Iron Saboteur"] = true
         t["Dark Rider"] = true
+				t["Forsaken Courier"] = true
         t["Foulbelly"] = true
         t["Fozruk"] = true
         t["Geomancer Flintdagger"] = true
