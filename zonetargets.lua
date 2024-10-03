@@ -81,6 +81,7 @@ function unitscan_zone_targets()
         t["Rorgish Jowl"] = true
         t["Terrowulf Packlord"] = true
 				t["Shadumbra"] = true
+				t["Sharptalon"] = true
         t["Ursol'lok"] = true
         t["Wandering Protector"] = true
 
