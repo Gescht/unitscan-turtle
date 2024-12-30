@@ -346,6 +346,7 @@ function unitscan_zone_targets()
         t["Timmy the Cruel"] = true
 
     elseif zone == "Swamp of Sorrows" then
+	t["Sorrowclaw"] = true
         t["Fingat"] = true
         t["Gilmorian"] = true
         t["Jade"] = true
