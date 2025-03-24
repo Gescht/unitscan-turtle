@@ -33,9 +33,13 @@ Path should look like this:
 ## Preview
 <video src="https://github.com/user-attachments/assets/835e06ea-c42f-464c-b2fb-cb5800e48db0" controls="controls" style="max-width: 730px;">
 </video>
-![Example1](preview/unitscan1.jpg)
-![Example2](preview/unitscan2.jpg)
-![Example3](preview/unitscan3.jpg)
+
+![Example1](https://raw.githubusercontent.com/RetroCro/unitscan-turtle-hc/refs/heads/master/preview/unitscan1.jpg)
+
+![Example2](https://raw.githubusercontent.com/RetroCro/unitscan-turtle-hc/refs/heads/master/preview/unitscan2.jpg)
+
+![Example3](https://raw.githubusercontent.com/RetroCro/unitscan-turtle-hc/refs/heads/master/preview/unitscan3.jpg)
+
 
 
 
