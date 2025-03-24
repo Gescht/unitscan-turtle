@@ -6,42 +6,39 @@
 This fork extends [unitscan-turtle](https://github.com/GryllsAddons/unitscan-turtle) by provinding a prepopulated list of  dangerous elite mobs, rares, and other units. This version is especially useful if you're playing Turtle WoW's hardcore mode.
 
 ## Download
-Download: https://github.com/RetroCro/unitscan-turtle-hc/archive/refs/heads/master.zip
+Download: [https://github.com/RetroCro/unitscan-turtle-hc/archive/refs/heads/master.zip](https://github.com/RetroCro/unitscan-turtle-hc/archive/refs/heads/master.zip)
 
-Unzip and rename the subfolder to "unitscan-turtle" 
-
-Copy folder to your Turtle WoW Addons folder ex: twmoa_1171\Interface\AddOns\unitscan-turtle
+Copy folder to your Turtle WoW Addons folder ex: twmoa_1171\Interface\AddOns\unitscan-turtle-hc
 
 Path should look like this:
 ```
 ....\TWMOA_1171\
 ├───Interface\
 │   └───AddOns\
-│       ├───unitscan-turtle\
+│       ├───unitscan-turtle-hc\
 │       │       Event_wardrum_ogre.ogg
 │       │       gruntling_horn_bb.ogg
 │       │       README.md
 │       │       scourge_horn.ogg
-│       │       tree.txt
 │       │       UI-Achievement-Alert-Glow.blp
 │       │       UI-Achievement-Parchment-Horizontal.blp
 │       │       UI-Achievement-Title.blp
-│       │       unitscan-turtle.toc
+│       │       unitscan-turtle-hc.toc
 │       │       unitscan.lua
 │       │       zonetargets.lua
 ```
 
 ## Preview
+<video src="https://github.com/user-attachments/assets/835e06ea-c42f-464c-b2fb-cb5800e48db0" controls="controls" style="max-width: 730px;">
+</video>
 ![Example1](preview/unitscan1.jpg)
 ![Example2](preview/unitscan2.jpg)
 ![Example3](preview/unitscan3.jpg)
-<video src="https://github.com/user-attachments/assets/835e06ea-c42f-464c-b2fb-cb5800e48db0" controls="controls" style="max-width: 730px;">
-</video>
 
 
 
 
-The list of units can be found in [zone targets.lua](https://raw.githubusercontent.com/RetroCro/unitscan-turtle/master/zonetargets.lua).
+The list of units can be found in [zone targets.lua](https://raw.githubusercontent.com/RetroCro/unitscan-turtle-hc/refs/heads/master/zonetargets.lua).
 
 
  - Unitscan will only look for zone targets specific to your current
@@ -67,7 +64,7 @@ The list of units can be found in [zone targets.lua](https://raw.githubuserconte
 
 You can add custom targets to find players or targets not included in the zone targets list by using the command /unitscan *name*. 
 
-Please Note: Targets added using /unitscan *name* will be removed from active scan targets after they are found. For a permanenet solution, edit [zone targets.lua](https://raw.githubusercontent.com/RetroCro/unitscan-turtle/master/zonetargets.lua) and add a line entry for that unit.
+Please Note: Targets added using /unitscan *name* will be removed from active scan targets after they are found. For a permanenet solution, edit [zone targets.lua](https://raw.githubusercontent.com/RetroCro/unitscan-turtle-hc/refs/heads/master/zonetargets.lua) and add a line entry for that unit.
 
 ## Complementary Addons
 [**SoloRaidTargetIcons**](https://github.com/refaim/SoloRaidTargetIcons) - This addon lets you put raid markers on units without being in a party (see video).
