@@ -88,6 +88,7 @@ function unitscan_zone_targets()
     elseif zone == "Azshara" then
         t["Antilos"] = true
         t["Avalanchion"] = true
+				t["Azuregos"] = true
         t["Blue Dragonspawn"] = true
         t["Blue Scalebane"] = true
         t["Bone Witch"] = true
@@ -852,7 +853,6 @@ function unitscan_zone_targets()
         t["Ravasaur Matriarch"] = true
         t["Spiked Stegodon"] = true
         t["Stegodon"] = true
-        t["Stone Guardian"] = true
         t["Thunderstomp Stegodon"] = true
         t["Tyrant Devilsaur"] = true
         t["Uhk'loc"] = true
@@ -885,6 +885,7 @@ function unitscan_zone_targets()
         t["The Husk"] = true
 
     elseif zone == "Westfall" then
+        t["Benny Blaanco"] = true
         t["Brack"] = true
         t["Brainwashed Noble"] = true
         t["Carver Molsen"] = true
@@ -977,6 +978,10 @@ function unitscan_zone_targets()
 				t["Sergeant Gately"] = true
 				t["Snarlclaw"] = true
 				t["Widow of the Woods"] = true
+
+	  elseif zone == "Tel'Abim" then
+        t["Grimeclaw"] = true
+				t["King Morogo Thunderfoot"] = true
 
     end
 end
