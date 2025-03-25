@@ -54,9 +54,9 @@ do
 		if not last_played or GetTime() - last_played > 10 then
 			SetCVar('MasterSoundEffects', 0)
 			SetCVar('MasterSoundEffects', 1)
-			-- PlaySoundFile[[Interface\AddOns\unitscan-turtle\Event_wardrum_ogre.ogg]]
-			-- PlaySoundFile[[Interface\AddOns\unitscan-turtle\scourge_horn.ogg]]
-			PlaySoundFile[[Interface\AddOns\unitscan-turtle\gruntling_horn_bb.ogg]]
+			-- PlaySoundFile[[Interface\AddOns\unitscan-turtle-hc\Event_wardrum_ogre.ogg]]
+			-- PlaySoundFile[[Interface\AddOns\unitscan-turtle-hc\scourge_horn.ogg]]
+			PlaySoundFile[[Interface\AddOns\unitscan-turtle-hc\gruntling_horn_bb.ogg]]
 			last_played = GetTime()
 		end
 	end
@@ -226,7 +226,7 @@ function unitscan.LOAD()
 
 	do
 		local background = button:CreateTexture(nil, 'BACKGROUND')
-		background:SetTexture[[Interface\AddOns\unitscan-turtle\UI-Achievement-Parchment-Horizontal]]
+		background:SetTexture[[Interface\AddOns\unitscan-turtle-hc\UI-Achievement-Parchment-Horizontal]]
 		background:SetPoint('BOTTOMLEFT', 3, 3)
 		background:SetPoint('TOPRIGHT', -3, -3)
 		background:SetTexCoord(0, 1, 0, .25)
@@ -234,7 +234,7 @@ function unitscan.LOAD()
 	
 	do
 		local title_background = button:CreateTexture(nil, 'BORDER')
-		title_background:SetTexture[[Interface\AddOns\unitscan-turtle\UI-Achievement-Title]]
+		title_background:SetTexture[[Interface\AddOns\unitscan-turtle-hc\UI-Achievement-Title]]
 		title_background:SetPoint('TOPRIGHT', -5, -5)
 		title_background:SetPoint('LEFT', 5, 0)
 		title_background:SetHeight(18)
@@ -259,7 +259,7 @@ function unitscan.LOAD()
 	do
 		local model = CreateFrame('PlayerModel', nil, button)
 		button.model = model
-		model:SetPoint('BOTTOMLEFT', button, 'TOPLEFT', 0, -4)
+		model:SetPoint('BOTTOMLEFT', button, 'TOPLEFT', 0, 10)
 		model:SetPoint('RIGHT', 0, 0)
 		model:SetHeight(button:GetWidth() * .6)
 		
@@ -278,7 +278,7 @@ function unitscan.LOAD()
 				
 				this:SetScript('OnUpdateModel', nil)
 				this:SetScript('OnUpdate', this.on_update)
-				this:SetModelScale(.75)
+				this:SetModelScale(1)
 				this:SetAlpha(1)	
 				last_update = GetTime()
 			end
@@ -310,7 +310,7 @@ function unitscan.LOAD()
 		glow:SetPoint('CENTER', button, 'CENTER')
 		glow:SetWidth(400 / 300 * button:GetWidth())
 		glow:SetHeight(171 / 70 * button:GetHeight())
-		glow:SetTexture[[Interface\AddOns\unitscan-turtle\UI-Achievement-Alert-Glow]]
+		glow:SetTexture[[Interface\AddOns\unitscan-turtle-hc\UI-Achievement-Alert-Glow]]
 		glow:SetBlendMode'ADD'
 		glow:SetTexCoord(0, .78125, 0, .66796875)
 		glow:SetAlpha(0)
@@ -340,7 +340,7 @@ function unitscan.LOAD()
 		shine:SetPoint('TOPLEFT', button, 0, 8)
 		shine:SetWidth(67 / 300 * button:GetWidth())
 		shine:SetHeight(1.28 * button:GetHeight())
-		shine:SetTexture[[Interface\AddOns\unitscan-turtle\UI-Achievement-Alert-Glow]]
+		shine:SetTexture[[Interface\AddOns\unitscan-turtle-hc\UI-Achievement-Alert-Glow]]
 		shine:SetBlendMode'ADD'
 		shine:SetTexCoord(.78125, .912109375, 0, .28125)
 		shine:SetAlpha(0)
