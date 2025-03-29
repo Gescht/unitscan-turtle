@@ -657,6 +657,7 @@ function unitscan_zone_targets()
         t["Lost One Cook"] = true
         t["Molt Thorn"] = true
         t["Murk Slitherer"] = true
+				t["Sanv Tas'dal"] = true
 				t["Scalebane Captain"] = true
         t["Somnus"] = true
         t["Sorrowclaw"] = true
